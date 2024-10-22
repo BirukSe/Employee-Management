@@ -1,0 +1,31 @@
+/* Navbar.css */
+.sidebar {
+    position: fixed; /* Keep the navbar fixed on the left side */
+    top: 0;
+    left: 0;
+    width: 200px; /* Adjust width as necessary */
+    height: 100vh; /* Full height */
+    background-color: #fff; /* Background color */
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Add some shadow for depth */
+    z-index: 1000; /* Keep it above other content */
+    
+    background-color: rgb(236, 153, 153);
+    
+}
+
+.shortcut-links {
+    padding: 20px; /* Add some padding */
+}
+
+.shortcut-links a {
+    display: block; /* Make links block level for easier clicking */
+    padding: 10px 0; /* Padding for links */
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Link color */
+}
+
+.shortcut-links a:hover {
+    color: #007BFF; /* Change color on hover */
+    background-color: #f0f0f0; /* Background on hover */
+}
+
